@@ -86,7 +86,7 @@ void loop()
     //color.nscale8_video(val);
     
     double now = millis() / 1000.0;
-    double now_scaled = now/5; //(slow down cycling)
+    double now_scaled = now/10; //(slow down cycling)
     //int base = max(0, baseColorValue-val);
     //One Tony Liked:
     //CRGB color = CRGB(pow(sin(now_scaled),2)* baseColorValue, val, pow(cos(now_scaled),2) * baseColorValue);
