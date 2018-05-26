@@ -54,14 +54,12 @@ void setup()
   //Wifi setup
   Serial.printf("Connecting to %s ", ssid);
   WiFi.begin(ssid, password);
-  while (WiFi.status() != WL_CONNECTED)
-  {
-    digitalWrite(ledPin, ! digitalRead(ledPin));
-    delay(500);
-    Serial.print(".");
-  }
-
-
+//  while (WiFi.status() != WL_CONNECTED)
+//  {
+//    digitalWrite(ledPin, ! digitalRead(ledPin));
+//    delay(500);
+//    Serial.print(".");
+//  }
   Serial.println(" connected");
 
   //Start UPD server

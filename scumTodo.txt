@@ -1,0 +1,27 @@
+SCUM TODO
+
+1) reconnect faster
+
+2) off line mode - some delay
+
+--> Case: when there is a connection to the wifi but there is no master sending a message 
+	- should not matter too much since router is at the sound bike
+
+3) set maters sensitivty paramaters
+
+
+--> osc support for master and slave
+----------> Slave
+	/val - animation value
+	/mode - color program to run
+----------> Master
+	/paramaters
+		/sensitivity
+		
+
+----------
+
+-> Loose wifi connection and start programed animation , kill router	- 8 seconds
+-> Start wifi router and wait for master, router start and connect 	- 30 seconds
+
+
