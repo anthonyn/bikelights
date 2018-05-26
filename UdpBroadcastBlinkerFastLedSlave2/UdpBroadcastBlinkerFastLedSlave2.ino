@@ -60,6 +60,8 @@ void setup()
     delay(500);
     Serial.print(".");
   }
+
+
   Serial.println(" connected");
 
   //Start UPD server
@@ -77,7 +79,6 @@ uint8_t gHue = 0; // rotating "base color" used by many of the patterns
 void loop()
 {
   if (WiFi.status() == WL_CONNECTED ) {
-
     int packetSize = Udp.parsePacket();
     if (packetSize)
     {
