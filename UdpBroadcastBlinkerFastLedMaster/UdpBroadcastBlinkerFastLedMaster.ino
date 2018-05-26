@@ -43,11 +43,13 @@ void setup() {
   // led setup
   pinMode(pinLed, OUTPUT);
 
-  while (WiFi.status() != WL_CONNECTED) {
-    digitalWrite(ledPin, ! digitalRead(ledPin));
-    delay(500);
-    Serial.print('.');
-  }
+//  while (WiFi.status() != WL_CONNECTED) {
+//    digitalWrite(ledPin, ! digitalRead(ledPin));
+//    delay(500);
+//    Serial.print('.');
+//  }
+
+
   digitalWrite(ledPin, HIGH);
   Serial.println();
 
